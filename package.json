@@ -1,0 +1,23 @@
+{
+  "name": "xampp-mysql-reset",
+  "version": "1.0.0",
+  "description": "A tool to reset xampp without losing any data when mysql does not start anymore.",
+  "license": "ISC",
+  "author": "",
+  "keywords": [
+    "xampp",
+    "mysql",
+    "php",
+    "bug",
+    "windows"
+  ],
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build":"npx pkg index.js --targets node18-win-x64 --output xampp_reset.exe",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}
