@@ -11,8 +11,8 @@ const xamppStart = './xampp_start.exe';
 const xamppStop = './xampp_stop.exe';
 const dumpFile = './backup.sql';
 
-const mysqldumpBin = "C:\\xampp\\mysql\\bin\\mysqldump.exe";
-const mysqlBin = "C:\\xampp\\mysql\\bin\\mysql.exe";
+const mysqldumpBin = "./mysql/bin/mysqldump.exe";
+const mysqlBin = "./mysql/bin/mysql.exe";
 
 const exclude = ['phpmyadmin', 'test'];
 const ignoreFlags = exclude.map(db => `--ignore-database=${db}`).join(' ');
