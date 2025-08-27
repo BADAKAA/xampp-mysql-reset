@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A tool to reset xampp without losing any data when mysql does not start anymore.",
   "license": "ISC",
-  "author": "",
+  "author": "BADAKAA",
   "keywords": [
     "xampp",
     "mysql",
